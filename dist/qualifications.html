@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body>
+
+    
+    <header>
+        <img src="../src/IHYA logo color1.svg" alt="IHYA Logo">
+    </header>
+    <section class="flex flex-col place-content-center px-4 items-center">
+<h1 class="text-3xl m-3 font-semibold text-center">Educational qualifications</h1>
+<p class="text-xs">*If you have only a single qualification you can simply select & click next</p>
+
+<div class=" flex flex-col gap-2 items-center place-content-center px-4 mt-16 ">
+
+
+
+
+
+
+
+    <div class="grid md:grid-cols-2 grid-cols-1  gap-2 w-full"> <!-- row  -->
+    <!-- #box-->
+     <div class="bg-[#FFFAD7]  rounded-xl px-10 flex flex-col place-content-center items-center  py-4  text-xl">
+        <h1 class="text-center">Select your secondary education</h1>
+        <div>
+            <form action="" class="m-3 flex">
+                <div><input type="checkbox" name="area" id="bel-8" class="hidden peer"> <label for="bel-8" class="peer-checked:*:bg-[#D39C32] peer-checked:*:text-white">
+                    <div class="bg-[#F2E4CA] border-2 border-[#AC802D] px-6 mx-1 mb-5 rounded-xl"><span class="text-nowrap">Below VIII</span></div></label></div>
+            
+                    <div><input type="checkbox" name="area" id="eight" class="hidden peer"> <label for="eight" class="peer-checked:*:bg-[#D39C32] peer-checked:*:text-white">
+                        <div class="bg-[#F2E4CA] border-2 border-[#AC802D] px-6 mx-1 mb-5 rounded-xl">VIII</div></label></div>
+                
+                
+            </form>
+        </div>
+     </div>
+     <!-- #box-->
+     <div class="bg-[#FFFAD7] rounded-xl px-10 flex flex-col place-content-center items-center  py-4  text-xl">
+         <h1 class="text-center">Select your secondary education</h1>
+         <div>
+             <form action="" class="m-3 flex flex-nowrap ">
+
+
+                <div><input type="checkbox" name="area" id="course" class="hidden peer"> <label for="course" class="peer-checked:*:bg-[#D39C32] peer-checked:*:text-white">
+                    <div class="bg-[#F2E4CA] border-2 border-[#AC802D] px-6 mx-1 mb-5 rounded-xl">VIII</div></label></div>
+
+
+                    <div><input type="checkbox" name="area" id="plus-two" class="hidden peer"> <label for="plus-two" class="peer-checked:*:bg-[#D39C32] peer-checked:*:text-white">
+                        <div class="bg-[#F2E4CA] border-2 border-[#AC802D] px-6 mx-1 mb-5 rounded-xl">VIII</div></label></div>
+                 <!-- #drop-->
+                   <!-- Dropdown 1 -->
+  <div class="relative inline-block text-left dropdown-container">
+    <button 
+      onclick="toggleDropdown('dropdown1')" 
+      class="inline-flex items-center justify-center w-full rounded-xl border-2 border-gold-dark shadow-sm px-4  bg-gold-bg-dark ">
+      Course
+      <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+        <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.292l3.71-4.06a.75.75 0 111.08 1.04l-4.25 4.665a.75.75 0 01-1.08 0L5.23 8.27a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+      </svg>
+    </button>
+    <div 
+      id="dropdown1" 
+      class="hidden dropdown-menu origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-silver ring-1  ring-opacity-5 focus:outline-none">
+      <div class="py-1">
+        <a href="#" class="dropdown-item block px-4 py-2 text-sm bg-silver hover:bg-gold-bg-dark">Option 1</a>
+        <a href="#" class="dropdown-item block px-4 py-2 text-sm bg-silver hover:bg-gold-bg-dark">Option 2</a>
+        <a href="#" class="dropdown-item block px-4 py-2 text-sm bg-silver hover:bg-gold-bg-dark">Option 3</a>
+      </div>
+    </div>
+  </div>
+                    <!-- #end drop -->
+                    
+                </form>
+            </div>
+        </div>
+    </div> <!-- row end -->
+
+
+
+
+
+    
+
+
+    <div class="grid md:grid-cols-2 grid-cols-1 gap-2 "><!-- row  -->
+    <!-- #box-->
+     <div class="bg-[#FFFAD7] rounded-xl px-10 flex flex-col place-content-center items-center  py-4  text-xl ">
+        <h1 class="text-wrap text-center">Degree year/completed & department</h1>
+        <div>
+            <form action="" class="m-3 pb-3 text-center">
+                <div><button class="bg-[#F2E4CA] border-2 border-[#AC802D] px-2 mb-3 mx-1 rounded-xl">First</button>
+                <button class="bg-[#F2E4CA] border-2 border-[#AC802D] px-2 mb-3 mx-1 rounded-xl">Second</button>
+                <button class="bg-[#F2E4CA] border-2 border-[#AC802D] px-2 mb-3 mx-1 rounded-xl">Third</button>
+                <button class="bg-[#F2E4CA] border-2 border-[#AC802D] px-2 mb-3 mx-1 rounded-xl">Four</button></div>
+                <button class="bg-[#F2E4CA] border-2 border-[#AC802D] px-2 mb-3 mx-1 rounded-xl">Completed</button>
+                <!-- #drop-->
+                  <!-- Dropdown 2 -->
+  <div class="relative inline-block text-left dropdown-container">
+    <button 
+      onclick="toggleDropdown('dropdown2')" 
+      class="inline-flex items-center justify-center w-full rounded-xl border-2 border-gold-dark shadow-sm px-4  bg-gold-bg-dark ">
+      Dept.
+      <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+        <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.292l3.71-4.06a.75.75 0 111.08 1.04l-4.25 4.665a.75.75 0 01-1.08 0L5.23 8.27a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+      </svg>
+    </button>
+    <div 
+      id="dropdown2" 
+      class="hidden dropdown-menu origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-silver ring-1  ring-opacity-5 focus:outline-none">
+      <div class="py-1">
+        <a href="#" class="dropdown-item block px-4 py-2 text-sm bg-silver hover:bg-gold-bg-dark">Option 1</a>
+        <a href="#" class="dropdown-item block px-4 py-2 text-sm bg-silver hover:bg-gold-bg-dark">Option 2</a>
+        <a href="#" class="dropdown-item block px-4 py-2 text-sm bg-silver hover:bg-gold-bg-dark">Option 3</a>
+      </div>
+    </div>
+  </div>
+                    <!-- #end drop -->
+            </form>
+        </div>
+     </div>
+     <!-- #box-->
+     <div class="bg-[#FFFAD7] rounded-xl px-10 flex flex-col place-content-center items-center  py-4  text-xl">
+         <h1 class="text-wrap"><span class="text-nowrap">Masters degree </span><span class="text-nowrap">year/completed & course</h1>
+         <div>
+             <form action="" class="m-3 text-center ">
+                <div>
+                 <button class="bg-[#F2E4CA] border-2 my-2 mb-3  border-[#AC802D] px-2 mx-1 rounded-xl text-nowrap">First</button>
+                 <button class="bg-[#F2E4CA] border-2 my-2 mb-3  border-[#AC802D] px-2 mx-1 rounded-xl text-nowrap">Second</button></div>
+                 <button class="bg-[#F2E4CA] border-2 my-2 mb-3  border-[#AC802D] px-2 mx-1 rounded-xl text-nowrap">Completed</button>
+
+
+
+
+                 <!-- #drop-->
+                 <!-- Dropdown 3 -->
+  <div class="relative inline-block text-left dropdown-container">
+    <button 
+      onclick="toggleDropdown('dropdown3')" 
+      class="inline-flex items-center justify-center w-full rounded-xl border-2 border-gold-dark shadow-sm px-4  bg-gold-bg-dark ">
+      Course
+      <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+        <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.292l3.71-4.06a.75.75 0 111.08 1.04l-4.25 4.665a.75.75 0 01-1.08 0L5.23 8.27a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+      </svg>
+    </button>
+    <div 
+      id="dropdown3" 
+      class="hidden dropdown-menu origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-silver ring-1  ring-opacity-5 focus:outline-none">
+      <div class="py-1">
+        <a href="#" class="dropdown-item block px-4 py-2 text-sm bg-silver hover:bg-gold-bg-dark">Option 1</a>
+        <a href="#" class="dropdown-item block px-4 py-2 text-sm bg-silver hover:bg-gold-bg-dark">Option 2</a>
+        <a href="#" class="dropdown-item block px-4 py-2 text-sm bg-silver hover:bg-gold-bg-dark">Option 3</a>
+      </div>
+    </div>
+  </div>
+
+
+                    <!-- #end drop -->
+                    
+                </form>
+            </div>
+        </div>
+    </div> <!-- row end --> 
+    </div>
+    <button class="bg-[#D39C32] rounded-xl px-8  w-[30%] py-1.5 my-14 text-white text-xl font-semibold text-nowrap" type="submit ">Next</button>
+</section>
+
+<footer class="bg-[#D39C32] mt-16">
+    <ul class="flex sticky place-content-center items-center gap-6 text-white h-10">
+        <li>About Us</li>
+        <li>Contact Us</li>
+        <li>FAQs</li>
+        <li>Terms and Conditions</li>
+    </ul>
+</footer>
+<script>
+ 
+ 
+ function toggleDropdown(id) {
+  const dropdown = document.getElementById(id);
+  const isHidden = dropdown.classList.contains("hidden");
+
+  // Close all dropdowns
+  document.querySelectorAll(".dropdown-menu").forEach(menu => menu.classList.add("hidden"));
+
+  // Toggle the clicked dropdown only if it was hidden
+  if (isHidden) {
+    dropdown.classList.remove("hidden");
+  }
+}
+
+// Close dropdown when clicking an item
+document.querySelectorAll(".dropdown-item").forEach(item => {
+  item.addEventListener("click", () => {
+    document.querySelectorAll(".dropdown-menu").forEach(menu => menu.classList.add("hidden"));
+  });
+});
+
+// Optional: Close dropdowns when clicking outside
+document.addEventListener("click", (event) => {
+  if (!event.target.closest(".dropdown-container")) {
+    document.querySelectorAll(".dropdown-menu").forEach(menu => menu.classList.add("hidden"));
+  }
+});
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+</body>
+</html>

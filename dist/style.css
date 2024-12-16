@@ -1,0 +1,43 @@
+.body-lines {
+    background-image: url("../src/lines\ 1.svg") ;
+    
+}
+
+.down{
+    background-image: url("../src/page1.svg");
+}
+
+.sec1{
+    background-image: url("../src/lines\ 1.svg");
+    width: 100%;
+}
+
+.foot-img{
+    background-image: url("../src/foot\ image.svg");
+}
+.img-bg{
+    background-image: url("../src/Rectangle\ 2.svg");
+}
+* {
+    font-family: 'Poppins', sans-serif;
+  }
+
+.custom-clip{
+    clip-path: polygon(0 0, 50.2% 7.2%, 100% 12.3%, 100% 94%, 0 100%);
+  }
+.main-clip{
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+.profile-bg{
+    background-image: url('../src/foot\ image.svg');
+}
+
+.mobile-svg{
+    clip-path: polygon(
+        0% 0%, 100% 0%, 100% 76.3%, 87.64% 76.94%, 74.2% 77.72%,
+        60.78% 78.5%, 47.39% 79.28%, 34.03% 80.06%, 20.61% 80.84%,
+        7.22% 81.62%, 0% 81.94%, 0% 81.94%, 0% 0%
+    );
+        background-color: bisque;
+}
