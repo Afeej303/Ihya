@@ -9,7 +9,7 @@
 
 .sec1{
     background-image: url("../src/lines\ 1.svg");
-    width: 100%;
+    
 }
 
 .foot-img{
@@ -41,3 +41,4 @@
     );
         background-color: bisque;
 }
+

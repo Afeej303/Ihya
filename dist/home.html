@@ -8,9 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
     <title>Document</title>
 </head>
-<body>
+<body class="">
 
-    <section class=" grid-flow-row sec1">
+    <section class="grid grid-flow-row w-full sec1">
         <!-- <nav class="flex flex-col"> 
             <div class="grid grid-cols-3 px-36 pt-5"> 
                 <div class="flex place-content-center">
@@ -38,43 +38,54 @@
 
 <!---------------------------------------------------------------------->
         
-        <div class="grid md:grid-cols-2  mt-16">
+        <div class="grid md:grid-cols-2 w-full mt-16">
 
         
-            <div class="flex flex-col place-content-center items-center mb-6 md:mb-0">
+            <div class="flex flex-col place-content-center items-center mb-6 md:mb-0 w-full">
                 <div>
-                    <h2 class="font-semibold text-[40px] mb-2">Welcome to <span class="text-[#D39C32] ">Ihya,</span> 
+                    <h2 class="font-semibold text-center text-3xl mb-2">Welcome to <span class="text-[#D39C32] ">Ihya,</span> 
                     </h2>
-                    <p>Join us and be part of this inspiring journey <br> 
+                    <p class="text-sm px-8 text-center md:px-0">Join us and be part of this inspiring journey <br class="hidden md:block"> 
                         toward excellence and shared success!</p>
                 </div>
                 <div>
-                     <div class="mt-12 flex flex-col text-center w-[400px]" ><button class="bg-gold-bg text-2xl rounded-full py-1 border-gold border-solid border-2 px-24" >Proceed to Join</button>
-                        <p class="text-nowrap text-sm mt-2">Already have an account? <a href="#">Sign in</a></p>
+                     <div class="mt-12 flex flex-col text-center w-full" ><button class="bg-gold-bg-dark md:text-2xl text-xl rounded-full py-1 border-gold border-solid border-2 md:px-24 px-1" >Proceed to Join</button>
+                        <p class="text-nowrap text-sm mt-2">Already have an account? <a href="#" class="text-gold-dark">Sign in</a></p>
                     </div>
                 </div>
             </div>
             <div class="flex place-content-end">
-                <img  src="../src/side image.svg" alt="" >
+                <img  src="../src/side image.svg" alt="" class="hidden">
             </div>
         </div >
             
     
     </section>
 
-    <section class=" mb-6">
-        <div class="h-56 md:relative">
-            <div class="flex">
-<div class="flex ">
+    <section class="flex w-full mb-6">
+        <div class="flex w-full h-56 md:relative bg-gold-bg">
+            <div class="flex w-full h-full place-content-center md:gap-16 gap-4 items-center">
+                <div class="flex md:flex-row flex-col md:gap-16 gap-4 ">
 
-    
-            <div class="">Jobs</p></div></div>
+                    
+                            <div class="flex flex-col md:h-36 h-24 md:w-36  w-24 border-2 border-gold-dark place-content-center rounded-full items-center"><p>1500</p><p>Jobs</p></div>
+                            <div class="flex flex-col md:h-36 h-24 md:w-36  w-24 border-2 border-gold-dark place-content-center rounded-full items-center"><p>1500</p><p>Jobs</p></div>
+                            
+                            
+                            
+                </div>
+                
+                <div class="flex md:flex-row flex-col md:gap-16 gap-4">
 
-            
-            <div class="">Jobs</p></div></div>
-
-            
-</div>
+                    
+                            <div class="flex flex-col md:h-36 h-24 md:w-36  w-24 border-2 border-gold-dark place-content-center rounded-full items-center"><p>1500</p><p>Jobs</p></div>
+                            <div class="flex flex-col md:h-36 h-24 md:w-36  w-24 border-2 border-gold-dark place-content-center rounded-full items-center"><p>1500</p><p>Jobs</p></div>
+                            
+                            
+                            
+                </div>
+                
+                
 
 
 
@@ -86,21 +97,21 @@
 
 
     <section >
-        <div class="bg-gold-bg mx-52 mt-14 mb-14 flex items-center rounded-3xl relative">
+        <div class="bg-gold-bg md:mx-52 mx-4 md:mt-14 md:mb-14 flex items-center rounded-3xl relative">
             <div id="default-carousel" class="relative w-full" data-carousel="static">
                 <!-- Carousel wrapper -->
                 <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
                     <!-- 1 -->
                     
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <div class="grid grid-cols-2 px-8 h-full">
-                            <div class="flex flex-col p-10 place-content-center items-center ">
-                                <h1 class="text-3xl">Simple to use and
+                        <div class="grid md:grid-cols-2 grid-cols-1 px-8 h-full">
+                            <div class="flex flex-col md:p-10 p-4 place-content-center items-center ">
+                                <h1 class="md:text-3xl text-2xl">Simple to use and
                                     manage with easy access</h1>
                                     <p class="text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                             </div>
                             <div class="flex h-full m-5">
-                            <img src="../src/Person using phone.svg" alt=""></div>
+                            <img src="../src/Person using phone.svg" alt="" class="md:block hidden"></div>
                         </div>
                         
                     </div>
@@ -135,14 +146,14 @@
                     <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
                 </div>
                 <!-- Slider controls -->
-                <button type="button" class="absolute -left-4 top-0 translate-x-4 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                <button type="button" class="absolute  top-0  start-0 z-30 flex items-center justify-center h-full px-1 cursor-pointer group focus:outline-none" data-carousel-prev>
                     <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
     
                         <img class="" src="../src/arrow-left.svg" alt="">
                         <span class="sr-only">Previous</span>
                     </span>
                 </button>
-                <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-1 cursor-pointer group focus:outline-none" data-carousel-next>
                     <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
                         <img class="rotate-180" src="../src/arrow-left.svg" alt="">
                         <span class="sr-only">Next</span>
@@ -153,14 +164,14 @@
         
         </div>
     </section>
-    <!-- <section class="bg-[#D9D9D9] py-7 mt-10">
-        <div class="m-24 grid grid-cols-6 mx-48  ">
+    <section class="flex w-full bg-[#D9D9D9] py-7 mt-10">
+        <div class="    ">
         <div class="text-center col-span-2 ">
             <h1 class="font-semibold text-2xl"><span class="text-nowrap">Find perfect job</span><br>
                 <span class="text-nowrap">according to you</span></h1>
         </div>
-        <div class="flex flex-wrap gap-3 col-span-4 ml-10 pr-10">
-            <button class="bg-[#F2E4CA] rounded-full border-2 border-solid border-[#D39C32] px-8 py-2 text-xl font-semibold font-Calibri text-nowrap mx-1">Engineering</button>
+        <div class="flex flex-wrap   ">
+            <button class="bg-[#F2E4CA] rounded-full border-2 border-solid border-[#D39C32] px-8 py-2 text-xl font-semibold font-Calibri text-nowrap mx-1"> Engineering</button>
             <button class="bg-[#F2E4CA] rounded-full border-2 border-solid border-[#D39C32] px-8 py-2 text-xl font-semibold font-Calibri text-nowrap mx-1">Medical</button>
             <button class="bg-[#F2E4CA] rounded-full border-2 border-solid border-[#D39C32] px-8 py-2 text-xl font-semibold font-Calibri text-nowrap mx-1">Any degree</button>
             <button class="bg-[#F2E4CA] rounded-full border-2 border-solid border-[#D39C32] px-8 py-2 text-xl font-semibold font-Calibri text-nowrap mx-1">Pharmacy</button>
@@ -170,9 +181,9 @@
             <button class="bg-[#F2E4CA] rounded-full border-2 border-solid border-[#D39C32] px-5 py-2 text-xl font-semibold font-Calibri text-nowrap mx-1">Sports quota</button>
             <button class="bg-[#F2E4CA] rounded-full border-2 border-solid border-[#D39C32] px-5 py-2 text-xl font-semibold font-Calibri text-nowrap mx-1">Teaching</button>
         </div></div>
-    </section> -->
+    </section>
 
-    <!-- <section class="">
+    <section class="">
         <div class="m-10 flex flex-col items-center place-content-center font-semibold">
         <h1 class=" m-5 text-3xl justify-center text-center">Watch video and <br>
         catch more</h1>
@@ -181,17 +192,13 @@
             <img src="../src/image-border.svg" alt="" class="w-full absolute left-0 bottom-0 rotate-180">
             
             <iframe class="rounded-2xl inset-0 my-5 " width="560" height="315" src="https://www.youtube.com/embed/OY2x0TyKzIQ?si=IbHWx65Q-0nTiX6C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div> -->
+        </div>
        
        
        
        
-        <!-- <div class="relative w-5/12 flex place-content-center before:content-[url('../src/image-border.svg')]">
-            <img src="../src/image-border.svg" alt="" class="w-full absolute top-0">
-            <img src="../src/image-border.svg" alt="" class="w-full bottom-0 absolute rotate-180">
-            <iframe class="rounded-2xl inset-0 my-5 " width="560" height="315" src="https://www.youtube.com/embed/OY2x0TyKzIQ?si=IbHWx65Q-0nTiX6C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div> -->
-    <!-- </div> -->
+        
+    </div>
     
     
     </section>
@@ -203,11 +210,11 @@
             better future of Ummah...</h1>
         </div>
         <div class="flex place-content-center items-start w-1/2">
-            <button class="bg-[#D39C32] rounded-xl px-8 py-2 text-xl font-semibold font-Calibri text-nowrap text-white">Get Started</button>
+            <button class="bg-[#D39C32] rounded-xl md:px-8 px-2 py-2 text-xl font-semibold font-Calibri text-nowrap text-white">Get Started</button>
         </div>
     </section>
 
-    <footer class="bg-[#D39C32] flex place-content-around px-[90px] pt-16 text-white" >
+    <footer class="hidden bg-[#D39C32] flex place-content-around  pt-16 text-white" >
         <div class="flex place-content-center text-center flex-col"><img src="../src/IHYA logo white 1.svg" class="w-96"  alt="IHYA Logo"><p>Government Service Assistance for <br>
             Muslim Community Development</p></div>
         
