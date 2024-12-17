@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en"  class="font-poppins">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Individual</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="flex overflow-hidden flex-col bg-white">
+        <nav class="flex z-10 flex-wrap gap-10 justify-center items-center pr-8 mt-0 w-full max-md:pr-5 max-md:max-w-full" role="navigation">
+          <div class="flex gap-2.5 items-center self-stretch p-2.5 my-auto w-[169px]">
+            <img loading="lazy" src="assets/ihya logo.png" class="object-contain self-stretch my-auto aspect-[1.15] w-[149px]" alt="Company Logo" />
+          </div>
+          <ul class="flex flex-wrap gap-8 justify-center items-center self-stretch my-auto text-lg leading-loose text-center text-black min-w-[240px] max-md:max-w-full">
+            <li class="self-stretch px-7 pb-7 my-auto whitespace-nowrap w-[92px] max-md:px-5">
+              <a href="#jobs" class="hover:text-orange-400 focus:outline-none focus:ring-2 focus:ring-orange-400 rounded">Jobs</a>
+            </li>
+            <li class="self-stretch px-12 pb-7 my-auto whitespace-nowrap w-[149px] max-md:px-5">
+              <a href="#exams" class="hover:text-orange-400 focus:outline-none focus:ring-2 focus:ring-orange-400 rounded">Exams</a>
+            </li>
+            <li class="self-stretch px-6 pb-6 my-auto whitespace-nowrap w-[149px] max-md:px-5">
+              <a href="#community" class="hover:text-orange-400 focus:outline-none focus:ring-2 focus:ring-orange-400 rounded">Community</a>
+            </li>
+            <li class="self-stretch px-7 pb-7 my-auto w-[149px] max-md:px-5">
+              <a href="#career" class="hover:text-orange-400 focus:outline-none focus:ring-2 focus:ring-orange-400 rounded">Set career</a>
+            </li>
+          </ul>
+          <div class="flex gap-7 items-center self-stretch my-auto">
+            <button aria-label="Search" class="focus:outline-none focus:ring-2 focus:ring-orange-400 rounded">
+              <img loading="lazy" src="assets/notifications.svg" class="object-contain shrink-0 self-stretch my-auto aspect-[0.86] w-[18px]" alt="" />
+            </button>
+            <button aria-label="User profile" class="focus:outline-none focus:ring-2 focus:ring-orange-400 rounded">
+              <img loading="lazy" src="assets/profile.png" class="object-contain shrink-0 self-stretch my-auto w-11 aspect-square" alt="" />
+            </button>
+          </div>
+        </nav>
+        <main class="flex relative flex-col px-16 pt-40 pb-32 mt-0 w-full text-3xl text-black min-h-[496px] max-md:px-5 max-md:pt-24 max-md:pb-28 max-md:max-w-full" role="main" style="background-color: #FFFAD7;">
+          <img loading="lazy" src="assets/home page main.png" class="object-cover absolute inset-0 size-full" alt="Background decoration" />
+          <h1 class="relative -right-2/4 z-10">
+            <span class="text-4xl font-semibold">Hi, </span>
+            <span class="text-4xl font-semibold text-orange-400">Ihya </span>
+            <span class="text-4xl font-semibold">just made</span>
+            <br />
+            <span class="text-4xl font-semibold leading-10">something special for you</span>
+          </h1>
+          <p class="relative  -right-2/4 z-10 mt-4">
+            <span class="text-xl ">Scroll and explore the hundreds of job affairs</span>
+            <br />
+            <span class="text-xl leading-7">we have made up for you according to your interest</span>
+          </p>
+        </main>
+        <section class="flex flex-col items-center mt-14 max-md:mt-10" aria-labelledby="browse-section">
+          <h2 id="browse-section" class="text-4xl font-semibold text-black mb-3">Browse your job by your interest</h2>
+          <p class="mt-2 text-xl leading-6 text-center text-black mb-16">
+            Explore the opportunities by Industry
+            <br />
+            Find your ideal role
+          </p>
+
+          <div class="flex flex-row gap-5 text-center" role="region" aria-label="Career Options">
+            <div
+              class="flex flex-col place-content-center px-20 py-12 text-center bg-white shadow-2xl rounded-[45px] max-sm:hidden"
+              role="article"
+              tabindex="0"
+            >
+              <div class="content-center text-4xl font-semibold text-orange-400">
+                Teacher
+              </div>
+              <div class="mt-8 text-xl leading-7 text-black w-[262px]">
+                Responsible for Planning, designing, and overseeing construction projects
+              </div>
+            </div>
+            <!-- <div
+              class="flex flex-col justify-start items-center place-content-center px-20 py-12 bg-white shadow-2xl rounded-[45px] max-md:px-5 max-sm:hidden"
+              role="article"
+              tabindex="0"
+            >
+              <div class="self-center text-4xl font-semibold text-orange-400">
+                Professor
+              </div>
+              <div class="mt-8 text-xl leading-8 text-black w-[262px]">
+                Responsible for Planning, designing, and overseeing construction projects
+              </div>
+            </div> -->
+            <div
+              class="flex flex-col justify-start items-center place-content-center px-20 py-12 shadow-2xl rounded-[45px] max-md:px-5 max-sm:hidden" style="background-color: #D39C32;"
+              role="article"
+              tabindex="0"
+            >
+              <div class="self-center text-4xl font-semibold text-white">
+                Professor
+              </div>
+              <div class="mt-8 text-xl leading-8 text-white w-[262px]">
+                Responsible for Planning, designing, and overseeing construction projects
+              </div>
+            </div>
+            <div
+              class="flex flex-col justify-start items-center place-content-center px-20 py-12 bg-white shadow-2xl rounded-[45px] max-md:px-5 max-sm:hidden"
+              role="article"
+              tabindex="0"
+            >
+              <div class="self-center text-4xl font-semibold text-orange-400">
+                Professor
+              </div>
+              <div class="mt-8 text-xl leading-8 text-black w-[262px]">
+                Responsible for Planning, designing, and overseeing construction projects
+              </div>
+            </div>
+            <div
+            class="flex flex-col justify-start items-center place-content-center px-20 py-12 bg-white shadow-2xl rounded-[45px] max-md:px-5 max-sm:hidden"
+            role="article"
+            tabindex="0"
+          >
+            <div class="self-center text-4xl font-semibold text-orange-400">
+              Professor
+            </div>
+            <div class="mt-8 text-xl leading-8 text-black w-[262px]">
+              Responsible for Planning, designing, and overseeing construction projects
+            </div>
+          </div>
+          
+          </div>
+        </section>
+        <img loading="lazy" src="assets/map homepage.svg" class="object-contain mt-40 w-full aspect-[3.75] max-md:mt-10 max-md:max-w-full" alt="Job categories illustration" />
+        <footer class="flex flex-col py-10 pr-24 pl-20 mt-20 w-full  min-h-[425px] max-md:px-5 max-md:mt-10 max-md:max-w-full" role="contentinfo" style="background-color: #D39C32;">
+          <div class="flex flex-wrap gap-10 items-center w-full max-md:max-w-full">
+            <img src="assets/ihya footer.png" alt="">
+            <nav class="flex flex-col self-stretch my-auto text-xl leading-none text-white w-[124px]" aria-label="Useful links">
+              <h3 class="font-bold">Useful links</h3>
+              <ul class="flex flex-col mt-5 w-full font-medium">
+                <li><a href="#login" class="hover: focus:outline-none hover:cursor-pointer focus:ring-white rounded">Log in</a></li>
+                <li class="mt-5"><a href="#jobs" class="hover: focus:outline-none hover:cursor-pointer focus:ring-white rounded">Jobs</a></li>
+                <li class="mt-5"><a href="#community" class="hover: focus:outline-none hover:cursor-pointer focus:ring-white rounded">Community</a></li>
+                <li class="mt-5"><a href="#career" class="hover: focus:outline-none hover:cursor-pointer focus:ring-white rounded">Career</a></li>
+              </ul>
+            </nav>
+            <nav class="flex flex-col self-stretch my-auto text-xl leading-none text-white w-[132px]" aria-label="Related links">
+              <h3 class="font-bold">Related links</h3>
+              <ul class="flex flex-col mt-5 w-28 max-w-full font-medium">
+                <li><a href="#about" class="hover: focus:outline-none hover:cursor-pointer focus:ring-white rounded">About Us</a></li>
+                <li class="mt-5"><a href="#contact" class="hover: focus:outline-none hover:cursor-pointer focus:ring-white rounded">Contact Us</a></li>
+                <li class="mt-5"><a href="#faq" class="hover: focus:outline-none hover:cursor-pointer focus:ring-white rounded">FAQ</a></li>
+                <li class="mt-5"><a href="#guide" class="hover: focus:outline-none hover:cursor-pointer focus:ring-white rounded">Guide</a></li>
+              </ul>
+            </nav>
+            <div class="flex flex-col self-stretch my-auto w-[142px]">
+              <h3 class="text-xl font-medium leading-none text-white">Follow us</h3>
+              <div class="flex gap-3 items-center mt-2 w-full">
+                <a href="#social1" class="focus:outline-none hover:cursor-pointer focus:ring-white rounded" aria-label="Social media link">
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/544444cbdc39572295adc3512609a54b0d7b5f60b627ef7865b9cb9d9271d67b?apiKey=e00d3c793b254127971e1d09475396f0&" class="object-contain shrink-0 self-stretch my-auto aspect-square w-[35px]" alt="" />
+                </a>
+                <a href="#social2" class="focus:outline-none hover:cursor-pointer focus:ring-white rounded" aria-label="Social media link">
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/a0e76f8decbc27146d36f6aa02cbcae87cde11aafbc7818fdede1e87b57e1679?apiKey=e00d3c793b254127971e1d09475396f0&" class="object-contain shrink-0 self-stretch my-auto aspect-square w-[47px]" alt="" />
+                </a>
+                <a href="#social3" class="focus:outline-none hover:cursor-pointer focus:ring-white rounded" aria-label="Social media link">
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/8bd89289919b9daced6aeaf2252afca7c1881afb3fb10db5e3c623e6f2846100?apiKey=e00d3c793b254127971e1d09475396f0&" class="object-contain shrink-0 self-stretch my-auto aspect-[1.41] w-[38px]" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="gap-2.5 self-stretch p-2.5 mt-2.5 w-full text-base font-medium leading-tight text-center text-white max-md:max-w-full">
+            All rights reserved
+            <span class="font-bold">© Ihya 2024</span>
+          </div>
+        </footer>
+      </div>
+
+</body>
+</html>
